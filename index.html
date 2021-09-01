@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Big Fat String Exercise</title>
+  </head>
+
+  <body>
+    <div><input name="input-box" type="text" id="input-box" /></div>
+    <div>
+      <select name="dropdown" id="dropdown">
+        <option value="">--Please choose an option--</option>
+        <option value="cap1">
+          If input is a first name: Make the first character in a name
+          uppercase, and the rest lowercase
+        </option>
+        <option value="first-name">
+          If input is a full name: Find the first name
+        </option>
+        <option value="first-length">
+          If input is a full name: Find the length of the first name
+        </option>
+        <option value="middle-name">
+          If input is a full name: Find the middle name start and end position,
+          and the middle name itself in a full name string
+        </option>
+        <option value="check-file">
+          If input is a filename: Check if a filename is .png or .jpg
+        </option>
+        <option value="password">
+          If input is a password: Hide a password with the correct number of *s
+        </option>
+        <option value="cap3">
+          With any input: Make the third character uppercase
+        </option>
+        <option value="space-hyphen">
+          With any input: Make a character uppercase, if it follows a space or a
+          hyphen
+        </option>
+      </select>
+    </div>
+    <div>
+      <button>Generate output!</button>
+      <input name="output-box" type="text" id="output-box" readonly />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
